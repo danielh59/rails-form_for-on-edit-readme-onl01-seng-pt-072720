@@ -882,3 +882,8 @@ Processing by PostsController#show as HTML
 Completed 200 OK in 27ms (Views: 25.2ms | ActiveRecord: 0.1ms)
 
 
+Started PATCH "/posts/1" for 142.255.123.99 at 2020-12-09 08:55:38 +0000
+Processing by PostsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0OPMzatZziSrTbXvb2Ot8V0myT0xMG6FqXczYlja+rgWwJkpo1cT4sPHUQuRPMP9DyzPp7+ArQTZF0+bWJBLLg==", "post"=>{"title"=>"Rails Introduction Quiz_111", "description"=>"asdfasdf"}, "commit"=>"Update Post", "id"=>"1"}
+  [1m[36mPost Load (0.1ms)[0m  [1m[34mSELECT  "posts".* FROM "posts" WHERE "posts"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
